@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+
+body {
+    color: #ddd;
+    background-color: #111;
+    max-width: 1000px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+header {
+    text-align: center;
+    margin: 20px auto;
+}
+
+main {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    align-content: flex-start;
+    text-align: left;
+}
+
+main>section {
+    border: 2px solid #ddd;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.contact-info {
+    text-decoration: none;
+    display: block;
+    margin: 5px auto;
+}
+
+.icon {
+    height: 0.9em;
+    width: 0.9em;
+    margin: 0 0.4em
+}
+
+h2 {
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.sub-h3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: #bbb;
+}
+
+ul {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+li {
+    text-align: justify;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+footer {
+    color: #888;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 30px auto 20px auto;
+}
+
+footer>a {
+    color: #888;
+}
